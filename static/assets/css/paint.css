@@ -190,6 +190,25 @@
 .paint--colors.legend .colors._6 {
 	background-color: #3D1515;
 }
+/*hrv*/
+.paint--colors.hrv .colors._1 {
+	background-color: #0E2359;
+}
+.paint--colors.hrv .colors._2 {
+	background-color: #3C1214;
+}
+.paint--colors.hrv .colors._3	 {
+	background-color: #212830;
+}
+.paint--colors.hrv .colors._4 {
+	background-color: #04040A;
+}
+.paint--colors.hrv .colors._5 {
+	background-color: #FEFEFE;
+}
+.paint--colors.hrv .colors._6 {
+	background-color: #CBC7CA;
+}
 /*---------[paint end]----------*/
 
 
