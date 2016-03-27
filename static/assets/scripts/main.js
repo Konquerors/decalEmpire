@@ -28,9 +28,11 @@ var Main = (function () {
 			});
 			$(".paint--colors .colors").click(function() {
 				var folder = $(this).attr("data-color");
+				$(".flexslider ul.slides li img").css("visibility", "hidden");
 				$(".flexslider ul.slides li img").each(function() {
 					var src = $(this).attr("src");
 					$(this).attr("src", src.replace(initFolder, "paint_"+folder));
+					$(this).css("visibility", "visible");
 				});
 				initFolder = initFolder.split("_")[0]+"_"+folder;
 			});
