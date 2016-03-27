@@ -121,13 +121,31 @@
 }
 /*civic*/
 .paint--colors.civic .colors._1 {
-	background-color: #544F56;
+	background-color: #0F1F5A;
 }
 .paint--colors.civic .colors._2 {
-	background-color: #BCC0C6;
+	background-color: #1A0B10;
 }
 .paint--colors.civic .colors._3	 {
-	background-color: #030303;
+	background-color: #0F1A26;
+}
+.paint--colors.civic .colors._4 {
+	background-color: #0F0F0F;
+}
+.paint--colors.civic .colors._5 {
+	background-color: #59585D;
+}
+.paint--colors.civic .colors._6	 {
+	background-color: #303030;
+}
+.paint--colors.civic .colors._7 {
+	background-color: #A10006;
+}
+.paint--colors.civic .colors._8 {
+	background-color: #EBEBED;
+}
+.paint--colors.civic .colors._9	 {
+	background-color: #EBEBE9;
 }
 /*accord*/
 .paint--colors.accord .colors._1 {

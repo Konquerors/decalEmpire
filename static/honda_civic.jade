@@ -7,7 +7,7 @@ block content
       .col-md-8
         #slider.flexslider
           ul.slides
-            each val in [1, 2, 3, 4, 5, 6, 7, 8]
+            each val in [1]
               - var model = 6;
               li
                 img(src='assets/images/models/list/'+model+'/color/paint_1/'+val+'.png')
@@ -15,7 +15,7 @@ block content
         //-#slider
         #carousel.flexslider
           ul.slides
-            each val in [1, 2, 3, 4, 5, 6, 7, 8]
+            each val in [1]
               - var model = 6;
               li
                 img(src='assets/images/models/list/'+model+'/color/paint_1/'+val+'.png')
@@ -37,6 +37,12 @@ block content
             .colors._1(data-color="1")
             .colors._2(data-color="2")
             .colors._3(data-color="3")
+            .colors._4(data-color="4")
+            .colors._5(data-color="5")
+            .colors._6(data-color="6")
+            .colors._7(data-color="7")
+            .colors._8(data-color="8")
+            .colors._9(data-color="9")
           //-.paint--colors
         //-.paint
         
@@ -44,12 +50,8 @@ block content
         
         strong Variants
         ul
-          li 1.8 S MT
-          li 1.8 S AT
-          li 1.8 E AT
-          li 1.8 E AT Modulo
-          li 2.0 EL AT
-          li 2.0 EL AT MUGEN
+          li 1.8 E
+          li RS Turbo
         
       //-.col-md-4
     //-.row
