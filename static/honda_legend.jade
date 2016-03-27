@@ -1,0 +1,57 @@
+extends ./layout/page.jade
+
+block content
+  
+  .card
+    .row
+      .col-md-8
+        #slider.flexslider
+          ul.slides
+            each val in [1]
+              - var model = 11;
+              li
+                img(src='assets/images/models/list/'+model+'/color/paint_1/'+val+'.png')
+          //-ul
+        //-#slider
+        #carousel.flexslider
+          ul.slides
+            each val in [1]
+              - var model = 11;
+              li
+                img(src='assets/images/models/list/'+model+'/color/paint_1/'+val+'.png')
+          //-ul
+        //-#carousel
+      //-.col-md-8
+      .col-md-4
+        h1 Legend
+
+        br
+        
+        include includes/product_details.jade
+        
+        hr
+        
+        strong Colors
+        .paint
+          .paint--colors.legend
+            .colors._1(data-color="1")
+            .colors._2(data-color="2")
+            .colors._3(data-color="3")
+            .colors._4(data-color="4")
+            .colors._5(data-color="5")
+            .colors._6(data-color="6")
+          //-.paint--colors
+        //-.paint
+        
+        hr
+        
+        strong Variants
+        ul
+          li 3.5 Sport Hybrid SH-AWD
+        
+      //-.col-md-4
+    //-.row
+  //-.card
+
+block scripts
+  // External Script goes here...

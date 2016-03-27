@@ -1,0 +1,59 @@
+extends ./layout/page.jade
+
+block content
+  
+  .card
+    .row
+      .col-md-8
+        #slider.flexslider
+          ul.slides
+            each val in [1, 2, 3, 4, 5, 6, 7, 8]
+              - var model = 6;
+              li
+                img(src='assets/images/models/list/'+model+'/color/paint_1/'+val+'.png')
+          //-ul
+        //-#slider
+        #carousel.flexslider
+          ul.slides
+            each val in [1, 2, 3, 4, 5, 6, 7, 8]
+              - var model = 6;
+              li
+                img(src='assets/images/models/list/'+model+'/color/paint_1/'+val+'.png')
+          //-ul
+        //-#carousel
+      //-.col-md-8
+      .col-md-4
+        h1 Civic
+
+        br
+        
+        include includes/product_details.jade
+        
+        hr
+        
+        strong Colors
+        .paint
+          .paint--colors.civic
+            .colors._1(data-color="1")
+            .colors._2(data-color="2")
+            .colors._3(data-color="3")
+          //-.paint--colors
+        //-.paint
+        
+        hr
+        
+        strong Variants
+        ul
+          li 1.8 S MT
+          li 1.8 S AT
+          li 1.8 E AT
+          li 1.8 E AT Modulo
+          li 2.0 EL AT
+          li 2.0 EL AT MUGEN
+        
+      //-.col-md-4
+    //-.row
+  //-.card
+
+block scripts
+  // External Script goes here...
